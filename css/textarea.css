@@ -1,0 +1,110 @@
+/*textarea 1*/
+.wrap {
+    width: 89%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-bottom: 4px;
+    margin-right: 9px;
+}
+
+.button{
+  float: left;
+}
+
+.butn{
+  width: 10%;
+  height: 93px;
+  color:#37ABB1;
+  background-color: white;
+}
+
+.textarea{
+  /*float: left;*/
+  width: 100%;
+}
+.wrap textarea {
+    width: 100%;
+    resize: none;
+    min-height: 6.5em;
+    line-height:1.6em;
+    max-height: 9em;
+    float: left;
+}
+.wrap span {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #ADADAD
+}
+#counter {
+  /*background:#ccc;*/
+  border-radius: 0.5em;
+  padding: 0 .5em 0 .5em;
+  font-size: 0.75em;
+  float: left;
+}
+
+/*textarea 2*/
+.wrap2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+}
+.wrap2 textarea {
+    width: 100%;
+    resize: none;
+    min-height: 6.5em;
+    line-height:1.6em;
+    max-height: 9em;
+}
+/* chrome */
+.wrap2 textarea::-webkit-input-placeholder { color: #E9A19E; }
+/* Firefox 4-18 */
+.wrap2 textarea:-moz-placeholder { color: #E9A19E; }
+/* Firefox 19+ */
+.wrap2 textarea::-moz-placeholder { color: #E9A19E; }
+/* IE10+ */
+.wrap2 textarea:-ms-input-placeholder { color: #E9A19E; }
+
+.wrap2 span {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #ADADAD
+}
+#counter2 {
+  /*background:#ccc;*/
+  border-radius: 0.5em;
+  padding: 0 .5em 0 .5em;
+  font-size: 0.75em;
+}
+
+/*textarea 3*/
+.wrap3{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+}
+.wrap3 textarea {
+    width: 100%;
+    resize: none;
+    min-height: 6.5em;
+    line-height:1.6em;
+    max-height: 9em;
+}
+.wrap3 span {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #ADADAD
+}
+#counter3 {
+  /*background:#ccc;*/
+  border-radius: 0.5em;
+  padding: 0 .5em 0 .5em;
+  font-size: 0.75em;
+}
